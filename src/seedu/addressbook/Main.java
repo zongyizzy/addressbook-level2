@@ -26,6 +26,7 @@ public class Main {
     private TextUi ui;
     private StorageFile storage;
     private AddressBook addressBook;
+    private String string;
 
     /** The list of person shown to the user most recently.  */
     private List<? extends ReadOnlyPerson> lastShownList = Collections.emptyList();
